@@ -9,7 +9,43 @@
 
 ## How to Run
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- `git clone https://github.com/jazuly/7578aa8295aabb1fa50749e759b0b745.git`
+- `cd 7578aa8295aabb1fa50749e759b0b745`
+- `composer install`
+- `npm i`
+- `npm run dev`
+- bikin database baru pada postresql
+- copy and paste file `.env.example` to `.env`
+- edit atau tambah code berikut pada file `.env`
+```
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=odeo
+DB_USERNAME=postgres
+DB_PASSWORD=
+
+QUEUE_CONNECTION=database
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=yourname
+MAIL_PASSWORD=yourpassword
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=email@example.com
+MAIL_FROM_NAME=Jazuly
+
+GITHUB_CLIENT_ID=fb5cee82b4cc6ca0d0dd
+GITHUB_CLIENT_SECRET=4ebcce07dac8491b66aaef9703f60b1578c79b01
+```
+- `php artisan key:generate`
+- `php artisan migrate`
+- `php artisan ser`
+- `php artisan queue:work`
+- open browser and access http://localhost:8000
+- login menggunakan akun github untuk menggunakan aplikasi
+- selesai
 
 ## About Laravel
 
