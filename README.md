@@ -7,6 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Flowchart
+![](https://github.com/jazuly/7578aa8295aabb1fa50749e759b0b745/blob/main/public/images/systemodeo.png)
+
 ## How to Run
 
 - `git clone https://github.com/jazuly/7578aa8295aabb1fa50749e759b0b745.git`
